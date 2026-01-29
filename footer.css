@@ -1,0 +1,31 @@
+footer {
+    padding: 20px;
+    background-color: #07394F;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.title {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    color: #0077b6;
+    font-weight: bolder;
+    font-variant: normal;
+    text-transform: uppercase;
+    line-height: 30px;
+    text-decoration: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: dashed;
+    border-left-style: none;
+    border-top-color: #0077b6;
+    border-right-color: #0077b6;
+    border-bottom-color: #0077b6;
+    border-left-color: #0077b6;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}

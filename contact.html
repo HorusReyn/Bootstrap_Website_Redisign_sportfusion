@@ -1,0 +1,131 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+    <!--<link rel="stylesheet" type="text/css" href="sf.css" />
+    <link rel="stylesheet" type="text/css" href="form.css" />-->
+    <link rel="stylesheet" type="text/css" href="footer.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>SportFusion Camp :: contact</title>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo-sportfusion-camp.png" alt="SportFusionCamp" height="25">
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active bg-primary" href="overzicht-zwemlessen.html">Zwemlessen</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="nav-link active bg-primary" aria-current="page" href="#">Sportkampen</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link active bg-primary" href="overzicht-voetbalkampen.html">Voetbalkampen</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active bg-info" href="contact.html">Contact</a>
+                  </li>
+                
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="column">
+                <h1 class="title">Inschrijven</h1>
+
+                <h2>Inschrijvingsformulier</h2>
+                <form action="verwerk_inschrijving.php" method="post">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Soort Kamp</h3>
+                    
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Selecteer het kamp:</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected value="Zwemlessen">Zwemlessen</option>
+                                    <option value="Voetbalkamp">Voetbalkamp</option>
+                                    <option value="Sportkamp">Sportkamp</option>
+                                  </select>
+                              </div>
+                              <div class="mb-3">
+                                <label for="naam_deelnemer" class="form-label">Naam kamp:</label>                   
+                                <input type="text" id="naam_kamp" name="naam_kamp" required>
+                              </div>
+                        </div>
+                        <div class="col">
+                            <h3>Gegevens Deelnemer</h3>
+                            <div class="mb-3">
+                              <label for="naam_deelnemer" class="form-label">Naam deelnemer:</label>                   
+                              <input type="text" id="naam_deelnemer" name="naam_deelnemer" required>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label">Geboortedatum:</label>
+                              <input type="date" class="form-control" id="exampleFormControlInput1" required>
+                            </div>
+                            <div class="mb-3">
+                              <label for="medische_geschiedenis" class="form-label">Medische geschiedenis (indien van toepassing):</label>                   
+                              <textarea id="medische_geschiedenis" name="medische_geschiedenis"></textarea>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <h3>Gegevens Ouders/Verzorgers</h3>
+                            <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label">Naam ouder/verzorger:</label>
+                              <input type="text" id="naam_ouder" name="naam_ouder" required>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label">E-mail ouder/verzorger:</label>
+                              <input type="email" id="email_ouder" name="email_ouder" required>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleFormControlInput1" class="form-label">Telefoon ouder/verzorger:</label>
+                              <input type="tel" id="telefoon_ouder" name="telefoon_ouder" required>
+                            </div>
+                            <input type="submit" value="Inschrijven">
+                        </div>
+                    </div>
+                    
+                   
+                      
+                </form>
+            </div>
+
+            <div class="column">
+                <img src="images/jeremiah-lawrence-I-GLN4EB3GU-unsplash.jpg" alt="Prinses" height="200">
+                <img src="images/jeremiah-lawrence-QBN_X4H0x9U-unsplash.jpg" alt="Zwemmen" height="200">
+                <img src="images/adria-crehuet-cano-LIhB1_mAGhY-unsplash.jpg" alt="Voetbal" height="200">
+            </div>
+            <h2>Contactgegevens</h2>
+        <p>Heeft u vragen of opmerkingen? Neem gerust contact met ons op:</p>
+        <p>Telefoon: (123) 456-7890</p>
+        <p>E-mail: info@SportFusionCamp.com</p>
+        </div>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; SportFusion Camp</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

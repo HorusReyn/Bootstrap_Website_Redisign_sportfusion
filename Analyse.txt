@@ -1,0 +1,25 @@
+kleuren: donkerblauw, lichtblauw
+
+navbar: 4 knoppen die naar de pagina's gaan plus logo afbeelding die u terug naar de index brengt
+
+footer: gecentreerd andere donkerblauw dan pagina donkerblauw
+
+Paragraphen: titles zijn bold
+//zwemlessen links op de pagina rechts 3 afbeeldingen onder elkaar
+
+//contact
+contactpagina heeft een link naar zichzelf op de pagina// kan misschien verwijdert worden
+links van pagina forum rechts 3 afbeeldingen die onder elkaar staan
+
+//voetbalkampen
+gebruikt heel de pagani
+de uitleg van de drie kampen staan in aparte kolommen
+
+//sportkampen
+niews: oranje text met geele achtergrond naam van nieuwe activiteit in bold
+tabel: vakantie namen in donkerblauw achtergrond, weeknummers in licht groene achtergrond
+	naam activiteit vetgedrukt in lichtblauw
+	volzet in rode text met licht rode achtergrond
+//alle pagina's
+elke pagina heeft bij inschrijven een link naar de contactpagina
+headers: zijn lichtlauw en vetgedrukt en met een stippelijn onderlijnd
